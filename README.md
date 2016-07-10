@@ -2,7 +2,9 @@
 
 ## A collaborative project for #g31
 
-###git practice
+##git practice
+
+# Level 1: Cloning, Forking, Creating a Pull Request
 
 1. Navigate to repository
     (https://github.com/zenvercoder/focotrain.ninja)
@@ -41,3 +43,19 @@
 
 * https://help.github.com/articles/configuring-a-remote-for-a-fork/
 * https://help.github.com/articles/syncing-a-fork/
+
+# Level 2: Update your local copy with everyone else's changes.
+
+## To get everyone else's change onto your local machine:
+
+1. `git remote -v` (I haven't set the upstream)
+2. `git remote add upstream https://github.com/zenvercoder/focotrain.ninja.git`
+3. `git remote -v` (now it has origin and upstream)
+4. `git fetch upstream`
+5. `git pull`
+6. `git status`
+7. `ls`
+8. `git checkout master`
+9. `git merge upstream/master` pulling/updating into your own local copy
+10. `git push` (copies it from your local to your remote)
+11. Now you're ready to submit a pull request at this point.
