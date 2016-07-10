@@ -5,7 +5,7 @@ div {
 .container {
     vmin: 100;
     vmax: 100;
-};
+}
 
 .train_hover {
     position: absolute;
