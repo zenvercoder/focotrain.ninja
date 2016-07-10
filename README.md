@@ -58,4 +58,4 @@
 8. `git checkout master`
 9. `git merge upstream/master` pulling/updating into your own local copy
 10. `git push` (copies it from your local to your remote)
-11. Now you're ready to submit a pull request at this point.
+11. Now you're ready to submit a pull request at this point(back to Level 1, step 8)
